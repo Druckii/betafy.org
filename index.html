@@ -3,97 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Betafy es una empresa dedicada a la certificación de calidad para videojuegos, garantizando que los productos cumplan con altos estándares.">
-    <meta name="keywords" content="Betafy, certificación, calidad, videojuegos, testing, indie games">
-    <meta name="author" content="Druck">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betafy - Certificación de Calidad para Videojuegos</title>
+    <title>Betafy - Experience Top-Level Play</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             color: #333;
         }
-        header {
-            background-color: #1f1f1f;
-            padding: 20px;
+        .hero {
+            background-image: url('tu_imagen_fondo.jpg'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             color: white;
+            position: relative;
         }
-        header h1 {
-            margin: 0;
+        .hero-content {
+            max-width: 800px;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+            padding: 40px;
+            border-radius: 10px;
         }
-        nav {
-            text-align: center;
-            margin: 20px 0;
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
         }
-        nav a {
-            color: #00cc66;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
         }
-        .welcome-section {
-            text-align: center;
-            padding: 50px 20px;
+        .btn {
             background-color: #00cc66;
             color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
         }
-        .content-section {
-            padding: 20px;
-            text-align: center;
+        .btn:hover {
+            background-color: #00994d;
         }
-        .content-section h2 {
-            color: #00cc66;
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
         }
-        .contact-section {
-            padding: 20px;
-            background-color: #1f1f1f;
-            color: white;
-            text-align: center;
-        }
-        .contact-section h2 {
-            color: #00cc66;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #1f1f1f;
-            color: white;
+        .logo img {
+            width: 150px; /* Ajusta el tamaño del logo según sea necesario */
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Betafy</h1>
-        <p>Certificación de Calidad para Videojuegos</p>
-    </header>
-    <nav>
-        <a href="#about">Sobre Betafy</a>
-        <a href="#services">Servicios</a>
-        <a href="#contact">Contacto</a>
-    </nav>
-    <section class="welcome-section">
-        <h1>Bienvenido a Betafy</h1>
-        <p>Garantizamos la calidad de tu videojuego con nuestro sello de confianza.</p>
+    <section class="hero">
+        <!-- Aquí se agrega el logo -->
+        <div class="logo">
+            <img src="logo.png" alt="Betafy Logo">
+        </div>
+
+        <div class="hero-content">
+            <h1>Experience Top-Level Play</h1>
+            <p>Join us in San Martín de los Andes for premier video gaming events and adventures.</p>
+            <a href="#" class="btn">Play Now</a>
+        </div>
     </section>
-    <section class="content-section" id="about">
-        <h2>Sobre Betafy</h2>
-        <p>Betafy es una empresa dedicada a la certificación de calidad en videojuegos, ofreciendo un sello de confianza que asegura que los juegos cumplen con altos estándares de rendimiento, jugabilidad, y estabilidad.</p>
-    </section>
-    <section class="content-section" id="services">
-        <h2>Servicios</h2>
-        <p>Ofrecemos testing funcional, pruebas de compatibilidad, localización y certificación de calidad para desarrolladores de videojuegos.</p>
-    </section>
-    <section class="contact-section" id="contact">
-        <h2>Contacto</h2>
-        <p>Email: contacto@betafy.org</p>
-        <p>Síguenos en nuestras redes sociales.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Betafy. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
+
